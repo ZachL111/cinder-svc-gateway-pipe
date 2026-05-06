@@ -1,0 +1,17 @@
+{
+  "repo": "cinder-svc-gateway-pipe",
+  "thresholds": {
+    "signal": 2,
+    "slack": 1,
+    "confidence": 2,
+    "drag": 5,
+    "ship": 168,
+    "watch": 117
+  },
+  "terms": [
+    "queue pressure",
+    "retry load",
+    "worker slack",
+    "session drift"
+  ]
+}
